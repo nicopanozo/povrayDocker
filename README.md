@@ -6,8 +6,9 @@
 ### 2. docker run --rm -v $(pwd):/app mypovray
 
 ## If you want to run it WITHOUT a docker container:
-### 1. export TERM=xterm && povray input.pov
-### 2. povray -D +Iinput.pov +Ooutput.png
+### 1. sudo apt install povray
+### 2. export TERM=xterm && povray input.pov
+### 3. povray -D +Iinput.pov +Ooutput.png
 
 ## The result should be a input.png image 
 ### You can use this site to change the input.pov file content:
